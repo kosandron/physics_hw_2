@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <div>
+        <label for="R">Enter R, in meters: </label>
+       <input type="number" id="R" class="R"> 
+    </div>
+    <div>
+        <label for="n">Enter number of turns on the coil: </label>
+        <input type="number" id="n" class="n">
+    </div>
+    <div>
+        <label for="I">Enter I, in A: </label>
+        <input type="number" id="I" class="I">
+    </div>
+    
+    
+    <button>Enter</button>
+
+    <div class="container-fluid" id="chartContainer">
+        <canvas id="myChart" width="400" height="400">   </canvas>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
