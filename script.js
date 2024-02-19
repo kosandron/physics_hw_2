@@ -5,7 +5,7 @@ var myChart = new Chart(ctx, {
     data: {
       labels: xData,
       datasets: [{
-        label: '# of Votes',
+        label: 'Зависимость магнитной индукции поля от координаты x. ',
         data: yData,
         borderWidth: 1
       }]
@@ -52,7 +52,7 @@ function paint() {
           data: {
             labels: xData,
             datasets: [{
-              label: 'magnetic induction vector module',
+              label: 'Зависимость магнитной индукции поля от координаты x.',
               data: yData,
               pointStyle: false
             }]
@@ -63,13 +63,13 @@ function paint() {
                 beginAtZero: false,
                 title: {
                     display: true,
-                    text: 'B, T'
+                    text: 'B, Тл'
                   }
               },
             x: {
                 title: {
                     display: true,
-                    text: 'x, m'
+                    text: 'x, м'
                   }
             }
             }
